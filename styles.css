@@ -1,0 +1,187 @@
+/* Set the font family, margin, and padding for the entire body */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DA7893;
+}
+
+/* Style the header section */
+header {
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Center the header content horizontally and vertically */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-content h1,
+.header-content h2 {
+    margin: 0;
+}
+
+.header-content h1 {
+    font-size: 2em;
+}
+
+.header-content h2 {
+    font-size: 1.5em;
+}
+/* .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+} */
+
+.header h1,
+.header h2 {
+    margin: 0;
+}
+
+.header h2 {
+    margin-left: 20px;
+}
+
+/* Add some right margin to the header h1 element */
+.header h1 {
+    margin-right: 20px;
+}
+
+/* Style the profile image in the header */
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Style the sections */
+section {
+    background-color: #c6d6e5;
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the h2 elements */
+h2 {
+    color: #ffffff;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Style the p elements */
+p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* Set the font family for h1, h2, h3, p, and a elements */
+h1, h2, h3, p, a {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Remove the default bullet points from unordered lists */
+ul {
+    padding: 0;
+}
+
+/* Add some bottom margin to list items */
+li {
+    margin-bottom: 10px;
+}
+
+/* Style the form elements */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the sections with background images */
+.skills,
+.work, .contact-details, .education, .contact-forms, .skillset {
+    flex: 1;
+    padding: 20px;
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+/* Style the search CV section */
+.search-cv {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the container sections */
+.container-experience, .container-contact, .container-skills {
+    display: flex;
+    background-color: transparent;
+}
+
+/* Style the about me section */
+.about-me {
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+/* Remove the default bullet points from unordered lists in the contact details section */
+.contact-details ul,
+.contact-details li {
+    list-style-type: none;
+}
+
+/* Remove the default underline from links in the contact details section */
+.contact-details ul a,
+.contact-details li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Add some right margin and larger font size to icons in the contact details section */
+.contact-details ul i,
+.contact-details li i {
+    margin-right: 5px;
+    font-size: 50px;
+}

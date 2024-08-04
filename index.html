@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <!-- Linking external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Linking Font Awesome library for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Linking Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<head>
+    <!-- Setting the title of the webpage -->
+    <title>My Personal Webpage</title>
+</head>
+<body>
+    <!-- Header section of the webpage -->
+<header class="header">
+    <div class="header-content">
+        <!-- Heading -->
+        <h1>Welcome to My Personal Webpage</h1>
+        <h2>I am a Software Engineer</h2>
+        <!-- Profile picture -->
+        <img class="profile-pic" src="ironman_propic.jpg" alt="My Profile Picture">
+
+    </div>
+</header>
+
+    <!-- About Me section -->
+    <section class="about-me">
+        <!-- Heading -->
+        <h2>About Me</h2>
+        <!-- Paragraphs -->
+        <p>I am a passionate software engineer with a strong background in Python and technical roles. I have a knack for problem-solving and a love for learning new technologies. My goal is to contribute to innovative projects and make a positive impact on the world through technology.</p>
+        <p>I am currently studying as a Software Engineer at a leading tech company, where I am improving on my knowledge for designing and implementing cutting-edge software solutions. I have experience working on various projects, including web applications, data analytics SQL/SAS and API integrations.</p>
+        <p>In my free time, I enjoy exploring new programming languages, and looking at the new technologies out there, and contributing to open-source projects. I am building profile as a member of the local tech community, where I want to share my knowledge and help others learn.</p>
+    </section>
+<!-- Experience section -->
+<section class="container-experience">
+    <!-- Skills section -->
+    <section class="skills">
+        <!-- Heading -->
+        <h2>Skills and Competencies</h2>
+        <!-- Unordered list -->
+        <ul>
+            <!-- List items -->
+            <li>Python</li>
+            <li>HTML/CSS</li>
+            <li>javascript</li>
+            <li>SQL (MS Server, MongoDB, Postgresql, SQLite)</li>
+            <li>SAS (Statistical Analysis System) Coding</li>
+            <li>Data Analysis</li>
+            <li>API's (SOAP,REST,GAQL, etc)</li>
+            <li>MS POWER APPS (SHAREPOINT,POWER AUTOMATE,POWER BI etc)</li>
+            <lI>GitHub</lI>
+        </ul>
+    </section>
+
+    <!-- Work Experience section -->
+    <section class="work">
+        <!-- Heading -->
+        <h2>Technical role Work Experience</h2>
+        <!-- Unordered list -->
+        <ul>
+            <!-- List items -->
+            <h3>SAS Business Administrator, THE Foschini Group Financial Services, 2022 - 2024</h3>
+            <h4>Roles and Responsibilities:</h4>
+            <li><p>First line Support to teams(Marketing teams, Business Analysts, etc.)in the SAS environment</p></li>
+            <li><p>SAS CI Studio (Troubleshooting and Analyzing logs to assist with errors and implementing preventative measures that deals with the system and the Data...)</p></li>
+            <li><p>SAS Information Maps (Working with the metadata sitting on our oracle servers and worked on the architecture of the tables and the relationships on a granular view...)</p></li>
+            <li><p>SAS Management Console (Scheduling SAS programs, Creating DBMS and RDBMS connections as library references...)</p></li>
+            <li><p>SAS Enterprise Guide (Building Programs and Projects with SAS Code, Having code reviews and Testing code solutions)</p></li>
+            <li><p>API Integration (Designed the solutions for marketing to Facebook and Google using the API's one of the big projects i ran)</p></li>
+            <li><p>Responsible for the code in the SAS programs that ran in the mornings to clients sending SMS's for collections</p></li>
+            <li><p>Worked in Unix and Windows Enviroments with WINSCP</p></li>
+            <li><p>Monitored Server ensuring we dont run out of space from user files and improving on preventative measures to not let the servers flatline</p></li>
+            <li><p>Working with third Party integrations in our environment</p></li>
+            <li><p>Automating Tasks with (Python, MoveIt, PowerAutomate and Powershell)</p></li>
+            <li><p>Attended sprints following the Agile method reporting on Projects,tasks and tickets logged on Freshdesk relating to Incidents,Service Requests and Change Requests</p></li>
+            <li><p>All Projects and Solutions that was worked on required me to:</p></li>
+            <h3>SAS Business Administrator, THE Foschini Group Financial Services, 2022 - 2024</h3>
+            <h4>Roles and Responsibilities:</h4>
+            <!-- More list items -->
+        </ul>
+    </section>
+</section>
+
+<!-- Skills section -->
+<section class="container-skills">
+    <!-- Education section -->
+    <section class="education">
+        <!-- Heading -->
+        <h2>Education</h2>
+        <!-- Unordered list -->
+        <ul>
+            <!-- List items -->
+            <li>Software Engineering Bootcamp, HyperionDev, 2024</li>
+        </ul>
+    </section>
+
+    <!-- Skillset section -->
+    <section class="skillset">
+        <!-- Heading -->
+        <h2>Skills set rating</h2>
+        <!-- Unordered list -->
+        <ul>
+            <!-- List items -->
+            <li>Python: 100%</li>
+            <li>HTML/CSS: 70%</li>
+            <li>javascript: 70%</li>
+            <li>Bootsrap: 80%</li>
+            <li>SQL: 80%</li>
+        </ul>
+    </section>
+</section>
+
+    <!-- Search CV section -->
+    <section class="search-cv">
+        <!-- Heading -->
+        <h2>Search My CV</h2>
+        <!-- Form -->
+        <form action="/search" method="get">
+            <!-- Search input -->
+            <input type="search" name="query" placeholder="Search keywords...">
+            <!-- Submit button -->
+            <input type="submit" value="Search">
+        </form>
+    </section>
+
+    <!-- Contact section -->
+    <section class="container-contact">
+        <!-- Contact form section -->
+        <section class="contact-forms">
+            <!-- Heading -->
+            <h2>Contact Form</h2>
+            <!-- Form -->
+            <form action="/contact" method="post">
+                <!-- Label and input for name -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <!-- Label and input for email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <!-- Label and textarea for message -->
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br>
+                <!-- Submit button -->
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <!-- Contact details section -->
+        <section class="contact-details">
+            <!-- Heading -->
+            <h2>Contact Me</h2>
+            <!-- Paragraphs -->
+            <p>Name: Tommy-Lee Thompson</p>
+            <p>Email: tomdev2019@gmail.com</p>
+            <p>Mobile: 075 444 3333</p>
+            <!-- Unordered list -->
+            <ul>
+                <!-- List items -->
+                <li><a href="https://www.linkedin.com/in/johndoe"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/johndoe"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
+        </section>
+    </section>
+</body>
+</html>
